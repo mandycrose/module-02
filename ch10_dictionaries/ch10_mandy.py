@@ -8,15 +8,15 @@
 
 ######### task 1 & 2 #############
 
-#salary = {} # you create a dictonary with the {}
-#salary["mandy"]= 500
-#salary["chen"]=1000
-#salary["mystery"]= 5000
-#
-##salary[7]= ("person1", "person2","person3")
-#print(salary)
-#
-#print(salary["mandy"])
+salary = {} # you create a dictonary with the {}
+salary["mandy"]= 500
+salary["chen"]=1000
+salary["mystery"]= 5000
+
+salary[7]= ("person1", "person2","person3")
+print(salary)
+
+print(salary["mandy"])
 
 ####### task 3 #######
 tel = {"mandy": 1111, "cem": 2222, "handan": 3333, "cemal":4444} #add string and int with : and comma
@@ -50,11 +50,11 @@ list(tel.keys())[0]
 
 ##### task 6 ##### 
 
-#k = 'eric'
-#if k in phoneNumbers:
-#    print(k, ':', phoneNumbers[k])
-#else:
-#    print(k, 'not found!')
+k = 'eric'
+if k in tel:
+    print(k, ':', tel[k])
+else:
+    print(k, 'not found!')
 
 #########***check on page 103**************
 #print(test_list[0]) #how do you check placement?
@@ -62,30 +62,30 @@ list(tel.keys())[0]
 ##################Sorting a dictionary#####################
 ##### task 7 & 8 ###################
 #
-#counts = {'a': 3, 'c': 1, 'b': 5}
-#labels = list(counts.keys())
-#labels.sort(key=lambda k:counts[k])
-##labels.sort() --- if you want to just sort the keys 
-#print(labels)
-#
-#salary_by_name= list(salary.keys())
-#print(salary_by_name)
-##salary_by_name.sort()
+counts = {'a': 3, 'c': 1, 'b': 5}
+labels = list(counts.keys())
+labels.sort(key=lambda k:counts[k])
+#labels.sort() --- if you want to just sort the keys 
+print(labels)
+
+salary_by_name= list(salary.keys())
+print(salary_by_name)
+#salary_by_name.sort()
 #salary_by_name.sort(key=lambda k:salary[k]) #lambda sorts the value. If you wanted to just sort the key, you could do a normal .sort
-#print(salary_by_name)
-#
-#print(sorted(counts.items(), key=lambda kv:kv[1]))
+print(salary_by_name)
+
+print(sorted(counts.items(), key=lambda kv:kv[1]))
 
 
 ############################### metals ############################
-#densities = {'iron' : 7.8, 'gold': 19.3, 'zinc': 7.13, 'lead': 11.4}
-#metals= list(densities.keys())
-#print(metals)
-#
-#metals.sort(reverse= True, key=lambda m:densities[m]) # "m" could be anything 
-#print(metals) # returns the highest density first because reverse 
-#
-#print(sorted(densities.items(), key= lambda kv: kv[0], reverse= True))
+densities = {'iron' : 7.8, 'gold': 19.3, 'zinc': 7.13, 'lead': 11.4}
+metals= list(densities.keys())
+print(metals)
+
+metals.sort(reverse= True, key=lambda m:densities[m]) # "m" could be anything 
+print(metals) # returns the highest density first because reverse 
+
+print(sorted(densities.items(), key= lambda kv: kv[0], reverse= True))
 
 products = {'iron' : (7.8, 0.93, 6000), 'gold': (19.3, 1.58, 26000), 'zinc': (7.13, 0.42, 15800), 'lead': (11.4, 0.75, 7300)}
 metals = list(products.keys())

@@ -22,7 +22,7 @@ def triangular(n):
         n= n - 1
     return trinum 
 
-#print(triangular(3))
+print(triangular(3))
 ### task 3 #### 
 def grades():
     did_you_pass = "yes"
@@ -36,7 +36,7 @@ def grades():
             else:
                 print("fail") # if you did not do return it would keep asking the question/ running loop
             did_you_pass = input("did you pass?")
-#grades()
+grades()
 
 ################################## task 4 - breaks in loop ############################
 
@@ -56,7 +56,7 @@ def greeting ():
         else:
             print ("hello {}".format(what_name))
 
-#greeting()
+greeting()
 
 #################### phonebook with loop ##################################### 
 

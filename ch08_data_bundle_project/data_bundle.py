@@ -50,7 +50,7 @@ def buyData (balance):
     elif balance < amount:
         return ("Your balance is not sufficient. Your balance is {}".format(balance))
 
-
+########## older code ####################
 #def DataBundlePurchase(truePassword,balance):
 #    if checkPassword(truePassword): 
 #        if whatDoyouWant (balance):

@@ -35,35 +35,35 @@ class Customer(object):
         self.balance += amount
         return self.balance
 #jason = Customer('Jason Taylor',1000.0) 
-#mandy= Customer("mandy","rose", 1.0)
-#
-#print(mandy.balance)
-#print(mandy.deposit(500.0))
-#print(mandy.withdraw (5.0))
-#print(mandy.withdraw (50.0))
-#print(mandy.balance)
-#print(mandy.name, mandy.surname) 
+mandy= Customer("mandy","rose", 1.0)
+
+print(mandy.balance)
+print(mandy.deposit(500.0))
+print(mandy.withdraw (5.0))
+print(mandy.withdraw (50.0))
+print(mandy.balance)
+print(mandy.name, mandy.surname) 
     
-#mandy= Customer("mandy","rose", 1.0)
+mandy= Customer("mandy","rose", 1.0)
 #mandy.name() = 
 #mandy.balance() = sys.argv[0]
 #mandy.deposit() = sys.argv[1]
 
-name= sys.argv [1]
-surname= sys.argv [2]
-balance= sys.argv [3]
-amount_1= sys.argv [4]
-amount_2= sys.argv [5]
-mandy = Customer(name,surname, balance)
-deposit= mandy.deposit(amount_1)
-withdrawl= mandy.withdraw(amount_2)
+#name= sys.argv [1]
+#surname= sys.argv [2]
+#balance= sys.argv [3]
+#amount_1= sys.argv [4]
+#amount_2= sys.argv [5]
+#mandy = Customer(name,surname, balance)
+#deposit= mandy.deposit(amount_1)
+#withdrawl= mandy.withdraw(amount_2)
 #print (Customer(name,surname,balance))
 
-print(mandy.balance)
-print(deposit)
-print(withdrawl)
+#print(mandy.balance)
+#print(deposit)
+#print(withdrawl)
 #print(mandy.withdraw ())
-print(mandy.balance)
+#print(mandy.balance)
 #print(mandy.name, mandy.surname)
 
 #name= "mindy"
@@ -83,52 +83,52 @@ print(mandy.balance)
 ####### task 2/3 inheritence #########################
 
 
-#class Animal():
-#    def eat(self):
-#        print("yum")
-#class dog(Animal):
-#    def bark(self, age):
-#        self.age = age
-#        print("woof")
-#        if age <= 5:
-#            print ("you are a young dog")
-#        else:
-#            print ("you are an old dog")
-#class cat(Animal):
-#    def meow(self):
-#        print("meow")
-#        
-##Snoopy= dog()
-##Snoopy.bark(8)
-##Snoopy.eat() 
+class Animal():
+    def eat(self):
+        print("yum")
+class dog(Animal):
+    def bark(self, age):
+        self.age = age
+        print("woof")
+        if age <= 5:
+            print ("you are a young dog")
+        else:
+            print ("you are an old dog")
+class cat(Animal):
+    def meow(self):
+        print("meow")
+        
+Snoopy= dog()
+Snoopy.bark(8)
+Snoopy.eat() 
 
 ############## task 4 assoication ###############
 
 
-#class robot():
-#    def move(self):
-#        print("move move move")
-#class cleanRobot(robot):
-#    def clean (self):
-#        print("look at me! I can clean!")
-#class cookRobot(robot):
-#    def cook(self):
-#        print ("Maybe you can clean, but I can cook! nom nom")
-#        
-##joey=cleanRobot()
-##joey.clean()
-#
-#class superRobot():
-#    def __init__(self):
-#        self.o1 = cleanRobot()
-#        self.o2 = Animal()
-#    def clean (self):
-#        return self.o1.move()
-#    def eat(self):
-#        return self.o2.eat()
-#machineDog= superRobot()
-#machineDog.clean()
-#machineDog.eat()
+class robot():
+    def move(self):
+        print("move move move")
+class cleanRobot(robot):
+    def clean (self):
+        print("look at me! I can clean!")
+class cookRobot(robot):
+    def cook(self):
+        print ("Maybe you can clean, but I can cook! nom nom")
+        
+#joey=cleanRobot()
+#joey.clean()
+
+class superRobot():
+    def __init__(self):
+        self.o1 = cleanRobot()
+        self.o2 = Animal()
+    def clean (self):
+        return self.o1.move()
+    def eat(self):
+        return self.o2.eat()
+machineDog= superRobot()
+machineDog.clean()
+machineDog.eat()
 
 import sys
 
@@ -157,7 +157,6 @@ class SuperRobot():
         #This class contains 3 objects'
         self.name = name
         self.age = age
-        
         self.o1 = Robot()
         self.o2 = Dog(name,age)
         self.o3 = CleanRobot()
