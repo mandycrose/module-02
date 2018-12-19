@@ -50,7 +50,7 @@ This is a temporary script file.
 #
 #age = 34
 #print(checkTeen(age))
-
+################# IF/ELSE statements Task 3/4 ###############
 #def numberGame ():
 #    number= input("Enter a number between 1 and 10: ")
 #    number = int(number)
@@ -67,6 +67,7 @@ This is a temporary script file.
 #        print ("great number!")
 #numberGame()
 
+######## task 5 #####################
 def ageGame():
     age= input("what is your age? ")
     age= int(age)
