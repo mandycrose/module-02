@@ -5,6 +5,9 @@
 ##@author: 612436112
 ##"""
 #################### chapter 10 dict ####################################
+
+######### task 1 & 2 #############
+
 #salary = {} # you create a dictonary with the {}
 #salary["mandy"]= 500
 #salary["chen"]=1000
@@ -15,6 +18,7 @@
 #
 #print(salary["mandy"])
 
+####### task 3 #######
 tel = {"mandy": 1111, "cem": 2222, "handan": 3333, "cemal":4444} #add string and int with : and comma
 print (tel)
 
@@ -30,7 +34,7 @@ print (tel["cem"])
 del tel["cemal"] #delete items from dict
 
 print(tel)
-
+#### task 4 ##### 
 print(tel.keys()) # to get the keys (str)
 print(tel.values()) #to get values (int)
 
@@ -40,10 +44,23 @@ test_list = {"mandy":"rose", "bob":"jones", "sally": "nobody"}
 print(test_list.keys())
 print(test_list.values())
 
-#***check on page 103**************
+##### task 5 #####
+
+list(tel.keys())[0]
+
+##### task 6 ##### 
+
+#k = 'eric'
+#if k in phoneNumbers:
+#    print(k, ':', phoneNumbers[k])
+#else:
+#    print(k, 'not found!')
+
+#########***check on page 103**************
 #print(test_list[0]) #how do you check placement?
 #
-##################Sorting a dictionary#########################
+##################Sorting a dictionary#####################
+##### task 7 & 8 ###################
 #
 #counts = {'a': 3, 'c': 1, 'b': 5}
 #labels = list(counts.keys())
@@ -86,11 +103,7 @@ print(sort_avail) # index 1 of kv and index 2 of value
 
 ############################# Pam Notes #############################################
 #print('\nCheck if a key exists in a dictionary:')
-#k = 'eric'
-#if k in phoneNumbers:
-#    print(k, ':', phoneNumbers[k])
-#else:
-#    print(k, 'not found!')
+
 #    
 #    
 #print('\nSorting a dictionary:')
