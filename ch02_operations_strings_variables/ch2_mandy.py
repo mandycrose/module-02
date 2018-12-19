@@ -4,7 +4,9 @@
 #
 #@author: 612436112
 #"""
-#
+########################## Chapter 2 #########################################
+
+########### Task 1 #################
 #a= 5 - 6
 #b= 8 * 9
 #c= 6 / 2
@@ -13,12 +15,15 @@
 #f= 5 % 2
 #g= 2 * (10 + 3)
 #h= 2 ** 4
+
+########### Task 2 #################
 #age = 5
 #age = "almost three"
 #age = 29.5
 #age = "I really don’t know!"
 #print (age)
-#
+
+########### Task 3 #################
 #print ("hello" + "world")
 #print("\n")
 #print ("Joke " * 3)
@@ -26,7 +31,8 @@
 #print ("hello".upper())
 #print ("GOODBYE".lower())
 #print ("the lord of the rings".title())
-#
+
+############ Task 4 #################
 #chen = 3 
 #joke = 2
 #print (chen + joke)
@@ -66,7 +72,7 @@
 #d;fkgd;lfkg;dlkg;dflkg"""
 #print (var)
 #
-##chapter 2 homework
+###############chapter 2 homework #############################################
 #print(10 / 3)
 #print(10 % 3)
 #
@@ -103,8 +109,6 @@ print ("Here are the days: ", days)
 
 import ch3_mandy.py
 temperature_conversion(30)
-
-
 
 
 
