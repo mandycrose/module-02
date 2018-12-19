@@ -5,12 +5,15 @@ Created on Tue Dec 18 09:17:28 2018
 @author: 612436112
 """
 ############ while loops #####################################################
+
+##### task 1 ### 
 x = 33
 while x >= 2: # runs the loop while x is > 2 
     print(x, ": ", end='' ) #end = '' connects by space and not new line
     x = x / 2                     #remember , gives a space and + gives no space 
 #print(x)
 
+#### task 2 #####
 
 def triangular(n):
     trinum = 0 
@@ -20,7 +23,7 @@ def triangular(n):
     return trinum 
 
 #print(triangular(3))
-
+### task 3 #### 
 def grades():
     did_you_pass = "yes"
     while did_you_pass == "yes":
@@ -35,7 +38,7 @@ def grades():
             did_you_pass = input("did you pass?")
 #grades()
 
-################################## breaks in loop ############################
+################################## task 4 - breaks in loop ############################
 
 i = 55
 while i > 10:
