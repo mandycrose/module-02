@@ -4,9 +4,12 @@
 ##
 ##@author: 612436112
 ##"""
-#-------------------------------------------------------------------------
+################################################################
 #lists and tuples
-#--------------------------------------------------------------------------
+################################################################
+
+#### task 1 ########
+
 #my_favourite_fruits = ["apple", "orange", "banana"]
 ##
 #x = ["this", 55, "that", my_favourite_fruits] #list can contain mix type of data!
@@ -14,7 +17,9 @@
 #x = ["this", 55, "that", my_favourite_fruits]
 #
 #x[3][0]
-#
+
+##### task 2 ########
+
 #x.remove(my_favourite_fruits)
 #print(x)
 #
@@ -48,6 +53,9 @@
 #print(list(zip(x,y)))
 #print(z*3)
 #
+
+############## task 3 - slicing #####################
+
 #a=["the", "cat", "sat","on", "the", "hat"]
 #print(a[:3])
 #
@@ -55,7 +63,8 @@
 #print(a[-1:])
 #print(a[-1])
 #print(a[-3:-1])
-#
+
+####### task 4 - sorting ###############
 #x = [7,11,3,9,2]
 #y= sorted(x,reverse=True) #this does not change x, need to assign to variable 
 #print(y)
@@ -68,7 +77,7 @@
 #print (toppings)
 #new_toppings = sorted(toppings, reverse= True)
 #print(new_toppings)
-#
+###### task 5 - tuples #######
 #list
 ##
 #a = [0,1,2,3,4,5,6,7,8,9]
@@ -76,7 +85,7 @@
 ##
 #print(a)
 ##
-###tuple
+##tuple
 ##b = (0,1,2,3,4,5,6,7,8,9)
 ###del b [-1]
 ##print(b) # error message that tuple does not support deletion 
@@ -91,9 +100,9 @@
 #
 ##b.append("this is an appendment") # can't append tuple 
 #print(b)
-#--------------------------------------------------------------
-#lambda function
-#--------------------------------------------------------------
+
+#### task 6 - lambda function ######
+
 b = (0,1,2,3,4,5,6,7,8,9)
 myFavF = ["apple","3","orange", "banana"]
 x = ["afsf", "1", "csdf", "dsdf","fsdf", "sdfe"]
