@@ -4,7 +4,27 @@
 #
 #This is a temporary script file.
 #"""
-#
+
+#### debugging #####
+userInput = input('please give a number ')
+print(type(userInput))
+
+userInput = input('please give a number ')
+def simpleOperation(userInput):
+intInput = int(userInput)
+result = intInput - 2
+return result
+def nestedOperation(result):
+result = simpleOperation(userInput)
+result2 = result * 2
+return result2
+result = simpleOperation(userInput)
+result2 = nestedOperation(result)
+print(result2)
+
+
+
+##### run debugging on task ### 
 #class Relationship():
 # def __init__ (self, name, score=0, months=0, number_friends=0, do_brunch=0):
 #      self.name = name
