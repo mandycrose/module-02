@@ -4,6 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
+############################ chapter 1 ########################################
 4**(1/2)
 2+3
 
@@ -31,5 +32,5 @@ print (A)
 print (B)
 
 print (str("4+5")+' '+'abcd')
-"hello code first".title()
-"hello code first".split()
+print("hello code first".title())
+print("hello code first".split())
