@@ -5,6 +5,9 @@ Spyder Editor
 This is a temporary script file.
 """
 ############################ chapter 1 ########################################
+
+print("hello")
+
 4**(1/2)
 2+3
 

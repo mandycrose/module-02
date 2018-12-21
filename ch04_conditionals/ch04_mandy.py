@@ -59,12 +59,13 @@ def numberGame ():
         print("Too high!")
         number= input("try again! Enter a number between 1 and 10: ")
         number = int(number)
-    if number <= 0 :
+    if number <= 0 : 
         print("Too low")
         number= input("try again! Enter a number between 1 and 10: ")
         number = int(number)
     else: 
         print ("great number!")
+ #### last two will be paired -- needs to be elif ###
 numberGame()
 
 ######## task 5 #####################
