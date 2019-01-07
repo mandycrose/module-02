@@ -72,6 +72,10 @@ class Square(MovingShape):
 class Diamond(MovingShape):
     def __init__(self,frame,diameter):
         MovingShape.__init__(self,frame,'diamond',diameter)
+        self.minx = diameter / 2
+        self.maxx = frame.width - (diameter * 2)
+        self.miny = diameter / 2
+        self.maxy = frame.height -(diameter * 2)
         
 #################################################### 
         
