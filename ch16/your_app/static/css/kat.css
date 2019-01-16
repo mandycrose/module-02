@@ -1,0 +1,48 @@
+body {
+  background: #808080;
+  color: white;
+  font-family: "helvetica", sans-serif;
+}
+
+#wrapper {
+  width: 95%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  margin-left: 110px;
+}
+
+img.circular {
+  border: 2px solid #F5F5F5;
+  display: block;
+  border-radius: 100px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+figcaption{
+  margin-left: 80px;
+}
+blockquote.first{
+  font-size: 20px;
+  text-shadow: 2px 2px #2F4F4F;
+}
+
+ul {
+  list-style-type: none;
+}
+section.quotes{
+  font-size: 20px;
+  text-shadow: 1px 1px  #333;
+}
+@media screen and (min-width: 800px) {
+  section.photo-quote {
+    float: left;
+    width: 49%;
+  }
+  section.quotes {
+    text-align: center;
+    clear: both;
+  }
+}
